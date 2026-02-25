@@ -1,0 +1,180 @@
+body{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: rgb(84, 103, 230);
+    color: black;
+    border-radius: 15px;
+    width: 500px;
+    padding: 25px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: large;
+}
+.box1{
+    background-color: rgb(0, 193, 22);
+    color: black;
+    border-radius: 15px;
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.box2{
+    background-color: rgb(193, 0, 0);
+    color: black;
+    margin: auto;
+    width: 300px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    transition: 0.3s;
+}
+footer{
+    display: inline-flex;
+    gap: 40px;
+}
+.caixa{
+    background-color: rgb(84, 103, 230);
+    width: 100px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 1px;
+    transition: 0.1s;
+}
+.caixa:hover{
+    transform: scale(1.05);
+    background-color:rgb(0, 34, 255) ;
+}
+.box1:hover{
+    transform: scale(1.05);
+    background-color:  rgb(0, 255, 30);
+    box-shadow: 0px 0px 30px rgba(0, 255, 30, 0.619);
+}
+.box2:hover{
+    transform: scale(1.05);
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.77);
+}
+.usuario{
+    background-color: rgb(63, 63, 246);
+    color: white;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    width: 450px;
+}
+.quantia{
+    background-color:rgb(63, 63, 246) ;
+    color: white;
+    border-radius: 15px;
+    width: 450px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 30px;
+}
+.confirmenvio{
+    background-color: rgb(0, 193, 22);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 250px;
+    transition: 0.3s;
+}
+.confirmenvio:hover{
+    transform: scale(1.05);
+    background-color: rgb(0, 255, 30);
+    box-shadow: 0px 0px 30px rgba(0, 255, 30, 0.619);
+}
+.usertrans{
+    background-color: rgb(63, 63, 246);
+    color: white;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    width: 400px;
+}
+.trasquantia{
+    background-color: rgb(63, 63, 246);
+    color: white;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    width: 400px;
+}
+.transconfirm{
+    background-color:  rgb(193, 0, 0);
+    color: white;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 100px;
+    transition: 0.3s;
+}
+.transconfirm:hover{
+    background-color: rgb(255, 0, 0);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.77);
+}
+.perfiluser{
+    background-color: rgb(63, 63, 246);
+    color: white;
+    width: 350px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 2px;
+    margin-top: 40px;
+    margin-left: 350px;
+}
+.perfilphoto{
+    background-color: rgb(63, 63, 246);
+    color: white;
+    width: 100px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 2px;
+    margin-top: 40px;
+    margin-left: 350px;
+}
+.perfilcreate{
+    background-color: rgb(152, 0, 152);
+    color: white;
+    width: 350px;
+    padding: 1px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 50px rgba(255, 0, 251, 0.805);
+    transition: 0.3s;
+}
+.perfilcreate:hover{
+    background-color: rgb(221, 3, 221) ;
+    transform: scale(1.05);
+}
+.perfiladopt{
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    padding: 1px;
+    margin: auto;
+    margin-top: 55px;
+    transition: 0.3s;
+    border-radius: 15px;
+    margin-bottom: 60px;
+}
+.perfiladopt:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.717);
+}
